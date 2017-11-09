@@ -1,0 +1,15 @@
+{
+    "plugins": ["node"],
+    "extends": ["eslint:recommended"],
+    "parserOptions": {
+      "ecmaVersion": 8
+    },
+  
+  
+    "rules": {
+        "node/exports-style": ["error", "module.exports"],
+        "no-undef": 0
+  
+    }
+  }
+  
